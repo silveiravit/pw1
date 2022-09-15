@@ -1,21 +1,44 @@
-.dimensao{
-    width: 800px;
+body{
+    width: 70%;
+    margin: auto;
 }
 
-/* O que for declarado com ponto da seguinte forma:
- .declaracao é compreendido como uma classe no css */
+h1{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font: bold 34px Arial;
+}
 
- img{
-     border: solid 1px #000000;
- }
+p{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+    font: bold 20px Arial;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
 
- /* O que for declarado como sendo um identificador de tag vai ser aplicado 
- em todas as ocorrências em que aparecer */
+img{
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 
- #jk{
-    border: solid 1px rgb(31, 38, 138);
-    width: 500px;
- }
-/* Quando voce declara com # então o tipo 'id' vai ser aplicado!
-Esse tipo apesar de funcionar não é tão recomendado, pois ids presisam ser
-únicos e não se repetem  */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font: bold 20px Arial;
+}
+
+/*Formatação da lista*/
+
+#carac{
+    font: bold  15px Verdana;
+}
