@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas</title>
+        <style>
+            table {
+                border: 3px solid black;
+                border-collapse: collapse;
+                width: 100% !important;
+                font: normal 20px arial;
+                text-align: center;
+            }
+            th {
+                border: 3px dotted black;
+                background-color: rgb(26, 89, 141);
+                color: rgb(255, 255, 255);
+                padding: 5px;
+            }
+            h1 {
+                text-align: center;
+                font: normal 30px arial;
+            }
+            caption {
+                border: 1px solid black;
+                background-color: cornflowerblue;
+                font: bold 20px verdana;
+                padding: 10px;
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+            }
+            td:nth-child(odd){
+                background-color: burlywood;
+            }
+            td:nth-child(even){
+                background-color: tomato;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabela de países</h1>
+
+        <table style="width: 50%;">
+            <caption>Campeonato DS</caption>
+            <tr>
+                <th>Oitavas de finais</th>
+                <th>Quartas de finais</th>
+                <th>Semi-finais</th>
+            </tr>
+            <tr>
+                <td>Corinthians</td>
+                <td>Brazil</td>
+                <td>Suécia</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>Manchester City</td>
+                <td>Egito</td>
+            </tr>
+            <tr>
+                <th>Palmeiras</th>
+                <th>Grêmio</th>
+                <th>Vasco</th>
+            </tr>
+        </table>
+    </body>
+</html>
